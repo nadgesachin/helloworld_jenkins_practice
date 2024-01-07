@@ -16,9 +16,9 @@ const server = http.createServer((req, res) => {
     // }); 
 
     switch (req.url) {
-        case '/': res.end("Hello Home Page");
+        case '/': res.end("Hello Home Page and Pat");
             break;
-        case '/about': res.end("About Page");
+        case '/about': res.end("About Page And Pat ");
             break;
         default: res.end("page not found");
     }
